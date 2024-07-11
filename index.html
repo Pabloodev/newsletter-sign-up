@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <title>Newsletter signup | pablodev</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <main class="white-content">
+    <div class="left-content" aria-label="main-content">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul class="benefits" aria-label="benefits">
+        <li>
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p class="benefits-list" aria-label="benefits-list">Product discovery and building what matters</p>
+        </li>
+        <li>
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p class="benefits-list" aria-label="benefits-list">Measuring to ensure updates are a success</p>
+        </li>
+        <li>
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p class="benefits-list" aria-label="benefits-list">And much more!</p>
+        </li>
+      </ul>
+      <form id="form" novalidate>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="email@company.com"/>
+        <span aria-live="polite" id="email-error"></span>
+        <button id="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <div class="right-content" aria-label="right-divisory">
+      <picture>
+        <source media="(max-width: 600px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+        <img class="right-content-img" src="./assets/images/illustration-sign-up-desktop.svg" alt="A simple illustration of sign up">
+      </picture>
+    </div>
+  </main>
+  <div class="thanks-forsub" aria-label="thanks-forsub">
+    <img class="sucess-icon" src="./assets/images/icon-success.svg" alt="Icon of success">
+    <h2>Thanks for subscribing!</h2>
+    <p class="sub-text" aria-label="sub-text">A confirmation email has been sent to <span class="email-changed" aria-label="custom-email"><strong>ash@loremcompany.com.</strong></span> Please open it and click the button inside to confirm your subscription.</p>
+    <button class="dismiss-btn">Dismiss message</button>
+  </div>
+</body>
+</html>
