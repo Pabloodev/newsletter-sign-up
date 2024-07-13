@@ -12,7 +12,7 @@
     box-sizing: border-box;
     list-style: none;
     border: none;
-    font-weight: 450;
+    font-weight: 420;
 }
 
 body {
@@ -30,7 +30,6 @@ main {
     width: 100%;
     max-width: 928px;
     height: auto;
-    max-height: 90vh;
     display: flex;
     align-items: center;
     background-color: white;
@@ -44,7 +43,7 @@ main {
     flex-direction: column;
     gap: 30px;
     padding: 35px;
-    max-width: 100%; /* Ajuste para ser responsivo */
+    max-width: 100%;
 }
 
 h1 {
@@ -60,7 +59,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 100%; /* Ajuste para ser responsivo */
+    max-width: 100%;
 }
 
 form label {
@@ -100,24 +99,24 @@ form span {
 }
 
 .thanks-forsub {
-    position: fixed; /* Alterado para fixed para centralizar na tela */
-    display: none; /* Mantém escondido por padrão */
+    position: fixed;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 40px;
     flex-direction: column;
     background-color: white;
-    width: 90%; /* Ajuste para ser responsivo */
+    width: 90%;
     max-width: 504px;
-    height: auto; /* Ajuste para ser responsivo */
-    max-height: 80vh; /* Ajuste para ser responsivo */
+    height: auto;
+    max-height: 80vh;
     padding: 60px;
     border-radius: 25px;
-    left: 50%; /* Centraliza horizontalmente */
-    top: 50%; /* Centraliza verticalmente */
-    transform: translate(-50%, -50%); /* Ajuste para centralizar */
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
     z-index: 1000;
-    overflow: hidden; /* Adicione isso para evitar overflow */
+    overflow: hidden; 
 }
 
 h2 {

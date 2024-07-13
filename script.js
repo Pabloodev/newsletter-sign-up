@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
         emailError.textContent = '';
         emailInput.classList.remove('error-email');
         emailInput.classList.remove('error');
-        alert('E-mail válido! Formulário enviado.');
 
         mainContent.style.display = 'none';
         subMessage.style.display = 'flex';
